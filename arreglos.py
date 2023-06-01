@@ -20,5 +20,10 @@ print(arreglo[::2])
 
 #Arreglo a partir de un rango
 
-c = [i for i in range(0,101,1)]
+c = [i for i in range(0,100,1)]
 print(c)
+
+#automatizar creacion
+x=range(0,5)
+arreglo_automatizado= [n for n in x]
+print(arreglo_automatizado)
